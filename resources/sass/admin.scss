@@ -1,0 +1,99 @@
+@import "files/fontiran.css";
+@font-face { font-family: 'OpenSans'; src: url('../fonts/OpenSans.ttf'); }
+@font-face { font-family: 'Calibri'; src: url('../fonts/Calibri.ttf'); }
+@font-face { font-family: 'Yekan'; src: url('../fonts/Yekan.woff'); }
+@font-face { font-family: 'Dinar'; src: url('../fonts/Dinar.ttf'); }
+@font-face { font-family: 'Yekanp'; src: url('../fonts/Yekanp.ttf'); }
+@font-face { font-family: 'Traf'; src: url('../fonts/Traf.ttf'); }
+@font-face { font-family: 'Koodak'; src: url('../fonts/Koodak.ttf');}
+@font-face { font-family: 'Entezar'; src: url('../fonts/Entezar.ttf'); }
+ 
+.dinar { font-family: 'Dinar' }
+.yekan { font-family: 'Yekan' }
+.calibri { font-family: 'Calibri' }
+.yekanp { font-family: 'Yekanp' }
+.traf { font-family: 'Traf' }
+.koodak { font-family: 'Koodak' }
+.entezar { font-family: 'Entezar' }
+.open-sans { font-family: 'OpenSans' }
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  font-family: IRANSans !important;
+}
+
+input , textarea , .table-fontSize {
+  font-size: 12px !important;
+  line-height: 1.7;
+}
+.sweet-alert {
+  font-family: IRANSans !important;
+}
+ul li{
+    font-family: IRANSans !important;
+}
+
+td{
+    font-family: IRANSans !important;
+}
+.router-link-exact-active, .router-link-active{
+    background-color: #262C49 !important;
+    color: #C2C6DC !important;
+    border-radius: 6px;
+    margin-bottom: 7px;
+}
+
+
+.confirm-button-class{
+  border-style: none;
+  border-color: #4839EB !important;
+  background-color: #7367F0 !important;
+  color: #FFFFFF;
+  border: 0 solid transparent;
+  padding: 0.9rem 2rem;
+  font-size: 1rem;
+  line-height: 1;
+  border-radius: 0.4285rem;
+  border-top-left-radius: 0.4285rem;
+  border-top-right-radius: 0.4285rem;
+  border-bottom-right-radius: 0.4285rem;
+  border-bottom-left-radius: 0.4285rem;
+}
+
+.cancel-button-class{
+  border-style: none;
+  border-color: #E42728 !important;
+  background-color: #EA5455 !important;
+  color: #FFFFFF;
+  border: 0 solid transparent;
+  padding: 0.9rem 2rem;
+  font-size: 1rem;
+  line-height: 1;
+  border-radius: 0.4285rem;
+  border-top-left-radius: 0.4285rem;
+  border-top-right-radius: 0.4285rem;
+  border-bottom-right-radius: 0.4285rem;
+  border-bottom-left-radius: 0.4285rem;
+}
+.ok-confirm-button-class{
+  border-style: none;
+  border-color: #1F9D57 !important;
+  background-color: #28C76F !important;
+  border: 0 solid transparent;
+  padding: 0.9rem 2rem;
+  font-size: 1rem;
+  line-height: 1;
+  border-radius: 0.4285rem;
+  border-top-left-radius: 0.4285rem;
+  border-top-right-radius: 0.4285rem;
+  border-bottom-right-radius: 0.4285rem;
+  border-bottom-left-radius: 0.4285rem;
+}
+
+hr { 
+    position: relative; 
+    top: 10px; 
+    border: none; 
+    height: 1px; 
+    background:#e4e8e8 ; 
+    margin-bottom: 50px; 
+   } 

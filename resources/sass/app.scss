@@ -1,0 +1,24 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+
+// Bootstrap
+@import '../app-assets/vendors/css/vendors-rtl.min.css';
+@import '../app-assets/vendors/css/charts/apexcharts.css';
+@import '../app-assets/css-rtl/bootstrap.css';
+@import '../app-assets/css-rtl/bootstrap-extended.css';
+@import '../app-assets/css-rtl/colors.css';
+@import '../app-assets/css-rtl/components.css';
+@import '../app-assets/css-rtl/themes/dark-layout.css';
+@import '../app-assets/css-rtl/themes/semi-dark-layout.css';
+@import '../app-assets/css-rtl/core/menu/menu-types/vertical-menu.css';
+@import'../app-assets/css-rtl/core/colors/palette-gradient.css';
+@import'../app-assets/css-rtl/pages/dashboard-ecommerce.css';
+@import'../app-assets/css-rtl/custom-rtl.css';
+@import'../app-assets/vendors/css/tables/datatable/datatables.min.css';
+@import'../app-assets/vendors/css/forms/select/select2.min.css';
+@import'../app-assets/vendors/css/extensions/sweetalert2.min.css';
+@import'../app-assets/css-rtl/pages/data-list-view.css';
